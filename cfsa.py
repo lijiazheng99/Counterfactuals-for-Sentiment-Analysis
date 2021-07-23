@@ -65,7 +65,7 @@ def init_argparser() -> argparse.ArgumentParser:
 
 def main() -> None:
     # Please enjoy Jiazheng's terrible code, 
-    # welcome any complaints to imporve my coding skills.
+    # welcome any complaints to improve my coding skills.
 
     parser = init_argparser()
     args = parser.parse_args()
