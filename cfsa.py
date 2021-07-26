@@ -13,7 +13,7 @@ import torch
 from transformers import *
 
 
-from cfsa.constants import TRAIN_SET_URL, DICT_PATH, models_dict
+from cfsa.constants import TRAIN_SET_URL, DICT_PATH, OUTPUT_PATH, models_dict
 from cfsa.loader import dataset_loader, dict_loader, neg_proun_loader, model_loader
 from cfsa.cfsarep import Cfsarep
 from cfsa.cfsarm import Cfsarm
@@ -53,7 +53,7 @@ def init_argparser() -> argparse.ArgumentParser:
     required.add_argument('--best_model', required=True, dest='best_model_path')
     required.add_argument('--tokenizer', required=True, dest='tokenizer_path')
 
-    required.add_argument('--output_path', required=False, default='outputs/', dest='output_path')
+    required.add_argument('--output_path', required=False, default=OUTPUT_PATH, dest='output_path')
 
     optional = parser.add_argument_group('Optional Arguments')
     optional.add_argument('--cuda', type=str, default='0', dest='cuda_gpu')

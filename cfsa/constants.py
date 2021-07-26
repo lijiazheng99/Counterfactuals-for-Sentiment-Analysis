@@ -2,6 +2,7 @@ from transformers import *
 
 TRAIN_SET_URL = 'https://raw.githubusercontent.com/acmi-lab/counterfactually-augmented-data/master/sentiment/orig/train.tsv'
 DICT_PATH = 'sa_dictionary/'
+OUTPUT_PATH = 'outputs/'
 
 punctuation = '!.?'
 
