@@ -25,27 +25,27 @@ Default project structure:
 	├── README.md
 	├── Introduction.png
 	├── .gitignore
-    ├── requirements.txt
-    ├── run.sh
-    ├── cfsa.py
+	├── requirements.txt
+	├── run.sh
+	├── cfsa.py
 	├── cfsa
 	│   ├── cfsa.py
 	│   ├── cfsarep.py
-    │   ├── cfsarm.py
-    │   ├── constants.py
+	│   ├── cfsarm.py
+	│   ├── constants.py
 	│   └── loader.py
-    ├── mvscore
-    │   └── mvscore.py
-    ├── sa_dictionary
-    │   ├── neg_proun.npy
-    │   ├── negative.txt
-    │   └── positive.txt
-    ├── model
-    │   ├── best-checkpoint
-    │   │   └── ...
-    │   └── ...
+	├── mvscore
+	│   └── mvscore.py
+	├── sa_dictionary
+	│   ├── neg_proun.npy
+	│   ├── negative.txt
+	│   └── positive.txt
+	├── model
+	│   ├── best-checkpoint
+	│   │   └── ...
+	│   └── ...
 	└── outputs
-            └── ...
+		 	└── ...
 ```
 
 ### Setup
