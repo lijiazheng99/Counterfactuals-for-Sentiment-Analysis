@@ -81,7 +81,7 @@ Default project structure:
     python cfsa.py --best_model model/best-checkpoint/ --tokenizer model/
     ```
 
-## Field Specification of setting conf json.
+## Field Specification of setting `cfsa.py`
    
 | Arguments   | Description |
 | ----------- | ----------- |
