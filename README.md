@@ -61,7 +61,9 @@ Default project structure:
 
 1. Install required dependencies with `pip`: 
 
-```pip install -r requirements.txt```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 1. Clone this repository:
 
@@ -77,7 +79,9 @@ Default project structure:
 
 1. Run the sample: 
 
-```python cfsa.py --best_model model/best-checkpoint/ --tokenizer model/```
+    ```bash
+    python cfsa.py --best_model model/best-checkpoint/ --tokenizer model/
+    ```
 
 ## Field Specification of setting conf json.
    
