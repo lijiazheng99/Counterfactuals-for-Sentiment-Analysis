@@ -59,16 +59,16 @@ Default project structure:
     conda activate cfsa
     ```
 
-1. Install required dependencies with `pip`: 
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 1. Clone this repository:
 
     ```
     git clone https://github.com/lijiazheng99/Counterfactuals-for-Sentiment-Analysis.git
+    ```
+
+1. Install required dependencies with `pip`: 
+
+    ```bash
+    pip install -r requirements.txt
     ```
 
 ### How to run a sample
