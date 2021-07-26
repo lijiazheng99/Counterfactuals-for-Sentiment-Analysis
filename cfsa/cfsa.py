@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Callable
 from tqdm import tqdm
 
-from cfsa.constants import masker_sets, delimeters, lc_delimeters, punctuation
+from cfsa.constants import delimeters, lc_delimeters, punctuation
 from copy import deepcopy
 import regex as re
 
@@ -20,7 +20,6 @@ class Cfsa:
         self.tokenizer = tokenizer
         self.token_length = token_length
         self.current_model = model_type
-        self.masker = masker_sets[model_type]
     
     def pred_sentence_sentiment(self, sentence: str) -> str:
 

@@ -20,6 +20,7 @@ class Cfsarep(Cfsa):
         self.pos_dict = pos_dict
         self.fill_model = fill_model
         self.mask_tokenizer = mask_tokenizer
+        self.masker = masker_sets[model_type]
 
     def get_sentiment_scores(self, plain_text, word_importance, predict_label):
         sentiment_embedding = []
