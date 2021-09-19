@@ -101,7 +101,7 @@ Please checkout these [examples](https://huggingface.co/transformers/custom_data
 
 ## Out-of-Domain Tests (OOD)
 
-To be available soon. 
+The data for all OOD tests can be found [here](https://drive.google.com/file/d/1s5_6HiSskLin4rGZlfG7GSPtFmObnS0j/view?usp=sharing).
 
 ## Citation
 
