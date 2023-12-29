@@ -73,7 +73,7 @@ Default project structure:
 
 *Note: requires internet connection and GPU access.*
 
-1. Download a sample model from [here](https://drive.google.com/file/d/1Nli4xsdvPkpaYw2gh7kwewoTeXJ2Bu7O/view?usp=sharing) (1.52 GB), unzip into the default language model folder `model/`.
+1. Finetune your own classification model on the target dataset, and place it in the model folder `model/`.
 
 1. Run the sample: 
 
